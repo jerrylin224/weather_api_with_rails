@@ -7,5 +7,6 @@ class User < ApplicationRecord
       admin: true,
       email: email
     }
+    # 在這邊自訂payload的資訊
   end
 end
